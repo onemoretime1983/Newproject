@@ -24,7 +24,9 @@ namespace WebApplication1
         }
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string b="this is new scholl of the new computure";
+            int a = result(b);
+            Response.Write(a);
         }
     }
 }
